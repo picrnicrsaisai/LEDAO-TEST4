@@ -105,3 +105,20 @@ body {
   background-color: hotpink;
   border-color: hotpink;
 }
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/1118000206227714161/1121398451503108096/saibb_blackwhite_line_drawing_high_resolution_Edward_Bawden_09164b68-f023-4c0f-8aa9-9c484223c9db.png");
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100%; /* 设置页面高度为100% */
+  overflow-y: scroll; /* 添加垂直滚动样式 */
+}
+
+/* 其他样式代码 */
+
+#content {
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 100px; /* 添加底部间距，使内容超过视口高度 */
+}
