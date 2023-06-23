@@ -25,7 +25,8 @@ body {
 #language {
   background-color: transparent;
   border: none;
-  color: black;
+  color: black
+  text-shadow: 0 0 10px white;
 }
 
 #content {
