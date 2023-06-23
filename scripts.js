@@ -1,7 +1,9 @@
-function switchLanguage() {
-    alert("Switching language feature not implemented");
+function showDescription(domain) {
+  var description = domain.querySelector(".description");
+  description.style.display = "block";
 }
 
-function navigateTo(page) {
-    alert("Navigate to " + page);
+function hideDescription(domain) {
+  var description = domain.querySelector(".description");
+  description.style.display = "none";
 }
