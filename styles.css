@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+font-family: 'Poppins', sans-serif;
+color: #000;
+text-shadow: 0 0 20px #FFFFFF, 0 0 20px #FFFFFF, 0 0 20px #FFFFFF, 0 0 20px #FFFFFF;
+background: url('https://cdn.discordapp.com/attachments/1118000206227714161/1121398451503108096/saibb_blackwhite_line_drawing_high_resolution_Edward_Bawden_09164b68-f023-4c0f-8aa9-9c484223c9db.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+#project-bar {
+position: fixed;
+right: 0;
+top: 0;
+padding: 20px;
+background-color: #f8f9fa;
+width: 100%;
+box-sizing: border-box;
+}
+
+#content {
+width: 80%;
+text-align: center;
+}
+
+.topic {
+display: inline-block;
+margin: 20px;
+cursor: pointer;
+}
+
+.topic img {
+display: none;
+width: 200px;
+height: 200px;
+}
+
+.topic:hover img {
+display: block;
+}
+
+.topic:hover h2 {
+display: none;
+}
+
+.discord-link, .instagram-link {
+color: #ff0099;
+text-decoration: none;
+}
+
+.discord-link:hover, .instagram-link:hover {
+text-decoration: underline;
+}
