@@ -14,7 +14,7 @@ body {
 
 #wechat {
   color: black;
-  text-shadow: 0 0 8px white;
+  text-shadow: 0 0 5px white;
 }
 
 #search {
@@ -24,7 +24,7 @@ body {
 
 #language {
   background-color: transparent;
-  border: none;
+  border: 1;
   color: black
   text-shadow: 0 0 10px white;
 }
@@ -35,17 +35,17 @@ body {
 }
 
 #ledao {
-  font-size: 48px;
+  font-size: 80px;
   cursor: pointer;
   color: white;
-  text-shadow: 0 0 10px hotpink;
+  text-shadow: 0 0 10px black;
 }
 
 #slogan {
   font-size: 24px;
   margin-top: 20px;
   color: white;
-  text-shadow: 0 0 10px hotpink;
+  text-shadow: 0 0 10px black;
 }
 
 #social-links {
@@ -78,7 +78,7 @@ body {
   padding: 20px;
   cursor: pointer;
   color: #ffffff;
-  text-shadow: 0 0 10px hotpink;
+  text-shadow: 0 0 10px black;
 }
 
 .domain h2 {
