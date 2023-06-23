@@ -34,14 +34,14 @@ body {
 
 .topic {
     display: inline-block;
-    margin: 20px;
+    margin: 40px;
     cursor: pointer;
 }
 
 .topic img {
     display: none;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .topic:hover img {
@@ -51,3 +51,8 @@ body {
 .topic:hover h2 {
     display: none;
 }
+.social-link-container a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f25278; /* Change the color */
+ 
