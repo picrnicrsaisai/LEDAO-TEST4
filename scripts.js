@@ -3,5 +3,5 @@ function switchLanguage() {
 }
 
 function navigateTo(page) {
-    window.open(page, '_blank');
+    alert("Navigate to " + page);
 }
