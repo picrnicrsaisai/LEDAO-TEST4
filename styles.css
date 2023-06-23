@@ -1,42 +1,107 @@
 body {
-    font-family: 'Poppins', sans-serif;
+  background-image: url("https://cdn.discordapp.com/attachments/1118000206227714161/1121398451503108096/saibb_blackwhite_line_drawing_high_resolution_Edward_Bawden_09164b68-f023-4c0f-8aa9-9c484223c9db.png");
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-.social-link-container {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.social-link-container a {
-    color: #FB607F; /* 设置链接颜色为粉色 */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 #wechat {
-    font-size: 18px;
-    margin-right: 10px;
+  color: black;
+  text-shadow: 0 0 8px white;
 }
 
-#topics {
-    display: flex;
-    justify-content: space-between;
+#search {
+  width: 300px;
+  padding: 10px;
 }
 
-.topic {
-    flex: 1;
-    margin: 20px;
-    cursor: pointer;
+#language {
+  background-color: transparent;
+  border: none;
+  color: black;
 }
 
-.topic img {
-    display: none;
-    width: 200px;
-    height: 200px;
+#content {
+  text-align: center;
+  margin-top: 100px;
 }
 
-.topic:hover img {
-    display: block;
+#ledao {
+  font-size: 48px;
+  cursor: pointer;
+  color: white;
+  text-shadow: 0 0 10px hotpink;
 }
 
-.topic:hover h2 {
-    display: none;
+#slogan {
+  font-size: 24px;
+  margin-top: 20px;
+  color: white;
+  text-shadow: 0 0 10px hotpink;
+}
+
+#social-links {
+  margin-top: 40px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  transition: background-color 0.3s;
+}
+
+.social-link:hover {
+  background-color: hotpink;
+}
+
+#domains {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.domain {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  text-shadow: 0 0 10px hotpink;
+}
+
+.domain h2 {
+  font-size: 24px;
+}
+
+.domain img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.description {
+  display: none;
+  margin-top: 20px;
+}
+
+#discord {
+  background-color: hotpink;
+  border-color: hotpink;
+}
+
+#instagram {
+  background-color: hotpink;
+  border-color: hotpink;
 }
