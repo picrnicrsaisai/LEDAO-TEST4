@@ -75,9 +75,11 @@ display: inline-block;
 margin: 0 10px;
 padding: 10px 20px;
 text-decoration: none;
+background-color: black;
 color: white;
 border: 1px solid white;
 transition: background-color 0.3s;
+  
 }
 
 .social-link:hover {
@@ -101,6 +103,10 @@ transition: all 0.3s ease;
 .domain:hover {
 background-color: rgba(0, 0, 0, 0.5);
 transition: all 0.3s ease;
+}
+
+.domain h2 {
+  text-shadow: 0 0 10px black;
 }
 
 .description {
@@ -132,3 +138,17 @@ transition: all 0.3s ease;
     z-index: 100;
 }
 
+#art-therapy img {
+  width: 200px;
+  height: 200px;
+}
+
+#photography img {
+  width: 200px;
+  height: 200px;
+}
+
+#reading-club img {
+  width: 200px;
+  height: 200px;
+}
