@@ -9,11 +9,11 @@ function hideImage(id) {
 }
 
 function showDescription(element) {
-var description = element.querySelector(".description");
-description.style.display = "block";
+    var description = element.querySelector(".description");
+    description.style.display = "block";
 }
 
 function hideDescription(element) {
-var description = element.querySelector(".description");
-description.style.display = "none";
+    var description = element.querySelector(".description");
+    description.style.display = "none";
 }
