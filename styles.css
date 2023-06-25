@@ -18,12 +18,13 @@ transition: all 0.3s ease;
 
 #wechat {
 color: white;
-text-shadow: 0 0 10px white;
+text-shadow: 0 0 5px white;
 transition: all 0.3s ease;
 }
+
 #xiaohongshu {
 color: white;
-text-shadow: 0 0 10px black;
+text-shadow: 0 0 5px black;
 transition: all 0.3s ease;
 }
 
@@ -112,7 +113,7 @@ transition: all 0.3s ease;
 
 #wechat, #xiaohongshu {
     position: relative;
-    margin-right: -1000px; 
+    margin-right: 10px; 
 }
 
 #wechat .hover-img {
